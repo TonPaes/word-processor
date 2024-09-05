@@ -8,6 +8,10 @@ from models import VowelCountRequest, SortRequest
 
 app = FastAPI()
 
+@app.get("/")
+async def heroku_test():
+    return {"howdi!"}
+
 @app.post("/vowel_count")
 async def vowel_count(request: VowelCountRequest):
     """
