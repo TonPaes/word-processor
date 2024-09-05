@@ -10,7 +10,7 @@ app = FastAPI()
 
 @app.get("/")
 async def heroku_test():
-    return {"howdi!"}
+    return {"git deploy working!"}
 
 @app.post("/vowel_count")
 async def vowel_count(request: VowelCountRequest):
