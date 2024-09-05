@@ -21,7 +21,7 @@ async def vowel_count(request: VowelCountRequest):
     word (str): The word to count vowels in.
 
     Returns:
-    int: The number of vowels in the word.
+    int: The number of vowels in the a given word.
     """
     word_counts = {word: count_vowels(word) for word in request.words}
     return word_counts
