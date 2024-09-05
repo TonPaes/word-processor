@@ -5,6 +5,9 @@
 ```bash 
 localhost:<port>/docs
 ```
+live version:
+
+https://ton-word-processor-794d5ae9be6c.herokuapp.com/docs#/
 
 ## Project Setup
 
